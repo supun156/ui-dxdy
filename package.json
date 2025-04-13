@@ -1,6 +1,6 @@
 {
   "name": "@supun156/ui-dxdy",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A collection of reusable React UI components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

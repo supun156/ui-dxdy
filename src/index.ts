@@ -1,5 +1,5 @@
 // Re-export the Button component
-export { default as Button } from "./Button";
+export { Button as default } from "./Button";
 
 // If you add more components later, export them here too:
 // export { default as Card } from './Card';
