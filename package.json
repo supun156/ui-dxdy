@@ -1,17 +1,37 @@
 {
-  "name": "ui-dxdy",
+  "name": "@supun156/ui-dxdy",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of reusable React UI components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supun156/ui-dxdy.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "dxdy"
+  ],
+  "author": "supun156",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supun156/ui-dxdy/issues"
+  },
+  "homepage": "https://github.com/supun156/ui-dxdy#readme",
   "devDependencies": {
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
