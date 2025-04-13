@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Target older JS for broader compatibility
+    "module": "commonjs", // Standard module system for Node/bundlers
+    "lib": ["dom", "es2015"],
+    "declaration": true, // IMPORTANT: Generate .d.ts files
+    "declarationMap": true, // Optional: Helps with Go to Definition in IDEs
+    "sourceMap": true, // Optional: Helps debugging compiled code
+    "outDir": "./dist", // Output compiled JS/types to a 'dist' folder
+    "rootDir": "./src", // Look for source files starting here
+    "strict": true,
+    "jsx": "react", // Support React JSX
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./src/Button.tsx", // Or wherever your source files are
+    "./src/index.ts"
+    // Add other .ts/.tsx files here
+  ],
+  "exclude": [
+    "node_modules",
+    "dist", // Don't try to compile the output directory
+    "**/*.test.ts", // Example: exclude test files
+    "**/*.spec.ts" // Example: exclude spec files
+  ]
+}

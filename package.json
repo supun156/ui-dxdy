@@ -1,17 +1,19 @@
 {
   "name": "@supun156/ui-dxdy",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "A collection of reusable React UI components",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/supun156/ui-dxdy.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@supun156"
   },
   "keywords": [
     "react",
@@ -29,10 +31,14 @@
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "typescript": "^5.0.0"
   },
   "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
